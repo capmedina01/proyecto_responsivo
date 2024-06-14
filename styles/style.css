@@ -14,28 +14,51 @@ body{
     width: 100%;
     height: 20%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: row;    
     align-items: center;
+    
 }
 
-.art{
+.art1{
     color: white;
-    width: 50%;
+    width: 40%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.art__img{
-    width: 80%;
-    height: 60%;
-}
-
-.art__h1{
-    font-size: medium;
-    padding: 2rem;
     
+    
+}
+
+.art1__img{
+    width: 80%;
+    height: 70%;
+    
+    
+}
+
+.art1__h1{
+    width: 80%;
+    font-size: small;
+    padding-top: 1rem;
+    
+    
+    
+}
+
+.art2{
+    color: white;
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.art2__h3{
+    font-size: medium;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
